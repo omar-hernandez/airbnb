@@ -1,0 +1,135 @@
+/* npm install babel-cli --save-dev */
+/* npm install babel-preset-es2015 --save-dev */
+/* npm install rimraf --save-dev     este guarda lo que leyó babel de EMS6 y lo convierte en js manila este rimraf lo guarda eso */
+
+
+
+/* Para que se actualice automaticamente y entonces lo que estemos haceidndo lo actualice atumaticamente y le haga build automaticamente con babel lo compile y lo actualice */
+
+
+/* npm run build para que construya la carpeta Dist */
+
+
+/* "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+"start": "npm run build && node dist/index.js",
+"test": "echo \"Error: no test specified\" && exit 1",
+"dev": "nodemon index.js --exec babel-node" */
+
+
+
+
+
+/* npm run dev                 al final para correrlo */
+
+
+/* USUARIO
+id 
+nombre
+apellidos
+roll 
+correo
+fecha nacimiento
+password
+username
+foto 
+género
+ubicación
+país
+tarjeta cuenta bancaria */
+
+
+
+/* docker-machine create dev o airbnbomar*/
+
+
+/* docker-machine env dev
+luego 
+eval $(docker-machine env dev) */
+/* docker-machine start dev */
+/* haz docker-machine ls para verificar que ta tenga name y el dev y te de una url
+docker-compose up --build */
+
+/* apt-get install   parece SER QUE ES PARA INSTALAR COSAS SOLO EN MI USUARIO Y NO EN EL GLOBAL */
+
+
+/* si le das control c paras los servicios
+entonces dar docker-compose up -d
+
+docker-machine active  */
+
+
+/* MVP
+creación de usuarios
+login
+creacion alojamientos
+renta alojamientos
+calificación */
+
+
+/* STATES 
+id 
+nombre
+descripción_corta
+descripción_larga
+ubicación
+tipo
+user (ref de la otra colección)
+precio por noche
+calificaciones
+disponibilidad
+características*****
+fotos  */
+
+/* 
+Características
+id 
+nombre
+descripción
+nùmero
+(ejemplo wifi o camas 1 -.... otra maximo de personas)
+
+
+
+Servicios 
+id 
+nombre
+descripcion */
+
+
+/* 
+reservaciones: 
+id reservacion
+id usuario*
+id state*
+fecha inicio
+fecha fin
+status pago
+numero personas
+cargo extra
+estatus de la reservacion */
+
+
+/* docker-machine create dev
+
+docker-machine env dev
+
+eval $(docker-machine env dev)
+
+docker-machine start dev
+
+docker-compose up —build
+
+docker-compose up -d */
+
+
+
+
+
+/* mongoose es ODM para comunicarnos con la base de datos */
+
+
+
+
+
+/* // Presave de mongoose para que se guarde hasheado la contraseña
+// npm install bcrypt --save */
